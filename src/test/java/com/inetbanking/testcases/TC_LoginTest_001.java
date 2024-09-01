@@ -34,7 +34,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		}
 		else {
 			System.out.println("Hello inserting into login to push to git hub");
-			System.out.println("before screenshot code in testcase ");
+			
 			CommonUtility.captureScreenShot(driver, "loginTest");
 			Assert.assertTrue(false);
 			
