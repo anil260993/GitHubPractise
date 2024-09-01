@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="testngframeworkpractice" verbose="5">
+<listeners>
+  <listener class-name="pack.MyListener"/>
+</listeners>
+  <test name="Tetng annotation">
+  <parameter name="username" value="abc" />
+  <parameter name="pwd" value="anil407"/>
+    <classes>
+     
+      <class name="pack.TestngPractice"/>
+   
+      
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
